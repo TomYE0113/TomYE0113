@@ -7,7 +7,7 @@
         <section>
             <nav>
               <ul><b>
-                <li><a href="index.html">Home</a></li>   
+                <li><a class="active" href="index.html">Home</a></li>   
                 <li><a href="profile.html">Profile</a></li>   
                 <li><a href="dashboard.html">Dashboard</a></li>   
                 <li><a href="FAQ.html">FAQ</a></li>
@@ -16,43 +16,84 @@
             
     </header>
     </div>
-<style>
-.header a{
-  text-decoration: none;
-  color: black;
-  font-size: 1em;
-}
-body {
-  background-image: url("achtergrond.jpg");
-}
-header {
-  background-color: white;
-}
-li a {
-  color: white;
-  text-align: left;
-  padding: 13px 16px;
-  text-decoration: none;
-}
-li {
-  display: inline;
-}
-li a:hover {
-  background-color: #cccccc;
-}
-ul {
-  padding: 0;
-  margin: 0;
-}
-</style>
     
 </head>
 <body>
 
-  
+<div class="onderkant">
+<h1>Waarom passen het HBO niveau en deze studie bij mij?</h1>  
+<p>Het niveau HBO past bij mij omdat dit een logische en goede keuze is geweest nadat ik mijn havo-diploma gehaald had.
+De studie past bij mij omdat ik sinds de middelbare school intresse heb gekregen in het coderen van onder andere websites.
+</p>
+</div>
+
+<div class="hz-logo">
+  <img src="hz-logo.jpg" alt="hz-logo" style="width:100px;height:100px;">
+</div>
 
 
 
 
 </body>
 </html>
+<style>
+  .header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+  }
+  body {
+    background-image: url("achtergrond.jpg");
+  }
+  header {
+    background-color: white;
+  }
+  li a {
+    color: white;
+    text-align: left;
+    padding: 13px 16px;
+    text-decoration: none;
+  }
+  li {
+    display: inline;
+  }
+  li a:hover {
+    background-color: #cccccc;
+  }
+  .active {
+    background-color: #cccccc;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  .onderkant {
+    position: fixed;
+    margin-top: 10em;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top: 0em;
+    text-align: center;
+  }
+  .onderkant p {
+    margin-bottom: 5em;
+    font-size: 1.5em;
+    border: 3px solid white;
+    width: 1190px;
+    border-right: 2em;
+    display: inline-block;
+  }
+  .onderkant h1 {
+    border: 3px solid black;
+    width: 800px;
+    display: inline-block;
+  }
+  .hz-logo {
+    float: left;
+    position: absolute;
+    left: 0.5em;
+    bottom: 0.5em;
+  }
+  </style>
