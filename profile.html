@@ -7,10 +7,10 @@
         <section>
             <nav>
               <ul><b>
-                <li><a href="index.html">Home</a></li>   
-                <li><a class="active" href="profile.html">Profile</a></li>   
-                <li><a href="dashboard.html">Dashboard</a></li>   
-                <li><a href="FAQ.html">FAQ</a></li>
+                <li class="nav"><a href="index.html">Home</a></li>   
+                <li class="nav"><a class="active" href="profile.html">Profile</a></li>   
+                <li class="nav"><a href="dashboard.html">Dashboard</a></li>   
+                <li class="nav"><a href="FAQ.html">FAQ</a></li>
               </b></ul>
             </nav>
             
@@ -25,10 +25,21 @@
     <div class="foto-tekst">Dit ben ik</div>
   </div>
 
+  <div class="bier">
+    <img src="bier.jpg" alt="bier" style="width:200;height:244;">
+    <div class="foto-tekst">Vrijetijdsbesteding</div>
+  </div>
+
+  <div class="game">
+    <img src="game.jpg" alt="game" style="width:400;height:225;">
+    <div class="foto-tekst">Een game die ik graag speel.</div>
+  </div>
+
   <div class="wie-ben-ik">
     <h1>Wie ben ik?</h1>
     <p>Ik ben Tom, 17 jaar oud en ik kom uit Yerseke. In mijn vrije tijd spreek ik veel met vrienden af of ga ik gamen. 
-    Ik heb verder niet echt iets van hobbies of wat dan ook dus naast wat ik in mijn vrije tijd doe is mijn leven niet zo interessant.</p>
+    Ik heb verder niet echt iets van hobbies of wat dan ook dus naast wat ik in mijn vrije tijd doe is mijn leven niet zo interessant. Een aantal eigenschappen van mij zijn: 
+    Ontspannen, realistisch en recht door zee.</p>
   </div>
 
 
@@ -54,7 +65,7 @@
     padding: 13px 16px;
     text-decoration: none;
   }
-  li {
+  li.nav {
     display: inline;
   }
   li a:hover {
@@ -96,5 +107,29 @@
     border: 3px solid black;
     width: 40%;
     font-size: 1.2em;
+  }
+  div.bier {
+    border: 3px solid white;
+    width: 200px;
+    height: 244px;
+    float: left;
+    position: absolute;
+    left: 20em;
+    bottom: 9em;
+  }
+  div.bier:hover {
+    border: 3px solid grey;
+  }
+  div.game {
+    border: 3px solid white;
+    width: 400px;
+    height: 225px;
+    float: right;
+    position: absolute;
+    right: 30em;
+    bottom: 8em;
+  }
+  div.game:hover {
+    border: 3px solid grey;
   }
   </style>

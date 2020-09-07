@@ -7,10 +7,10 @@
         <section>
             <nav>
               <ul><b>
-                <li><a href="index.html">Home</a></li>   
-                <li><a href="profile.html">Profile</a></li>   
-                <li><a href="dashboard.html">Dashboard</a></li>   
-                <li><a class="active" href="FAQ.html">FAQ</a></li>
+                <li class="nav"><a href="index.html">Home</a></li>   
+                <li class="nav"><a href="profile.html">Profile</a></li>   
+                <li class="nav"><a href="dashboard.html">Dashboard</a></li>   
+                <li class="nav"><a class="active" href="FAQ.html">FAQ</a></li>
               </b></ul>
             </nav>
             
@@ -20,10 +20,21 @@
 </head>
 <body>
 
-  
-
-
-
+  <div class="faq">
+    <h1>Frequently Asked Questions</h1> 
+    <ol class="a">
+      <b><li>1.Hoe kan je een document printen op de HZ?</li></b>
+      <li>Door te verbinden met een printer op het wifi netwerk en op afrukken te klikken.</li>
+      <b><li>2.Hoe scan je een document en deel je deze met je laptop op de HZ?</li></b>
+      <li>Dit kan door in te loggen op een printer, het document te scannen en door te sturen naar je laptop.</li>
+      <b><li>3.Wat doe je bij symptomen van het corona-virus?</li></b>
+      <li>Je blijft 2 weken thuis nadat je voor het laatst last hebt gehad van deze symptomen.</li>
+      <b><li>4.Hoe kan je een project ruimte reserveren?</li></b>
+      <li>Via het self-service portaal op de site van de HZ kan je een ruimte reserveren voor bepaalde tijd.</li>
+      <b><li>5.Welke instructies moet je volgen om te kunnen parkeren bij de HZ?</li></b>
+      <li>Als je aankomt bij de school moet je je studenten pas scannen en dan zou je door moeten kunnen rijden.</li>
+    </ol> 
+  </div> 
 
 </body>
 </html>
@@ -46,7 +57,7 @@
     padding: 13px 16px;
     text-decoration: none;
   }
-  li {
+  li.nav {
     display: inline;
   }
   li a:hover {
@@ -58,5 +69,21 @@
   ul {
     padding: 0;
     margin: 0;
+  }
+  .faq {
+    color: black;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    position: fixed;
+    right: 24em;
+    top: 5em;
+    border: 3px solid black;
+    width: 40%;
+    font-size: 1.2em;
+  }
+  ol.a {
+    list-style-type:none;
+    text-align: left;
   }
   </style>

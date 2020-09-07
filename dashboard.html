@@ -7,10 +7,10 @@
         <section>
             <nav>
               <ul><b>
-                <li><a href="index.html">Home</a></li>   
-                <li><a href="profile.html">Profile</a></li>   
-                <li><a class="active" href="dashboard.html">Dashboard</a></li>   
-                <li><a href="FAQ.html">FAQ</a></li>
+                <li class="nav"><a href="index.html">Home</a></li>   
+                <li class="nav"><a href="profile.html">Profile</a></li>   
+                <li class="nav"><a class="active" href="dashboard.html">Dashboard</a></li>   
+                <li class="nav"><a href="FAQ.html">FAQ</a></li>
               </b></ul>
             </nav>
             
@@ -104,9 +104,9 @@
    </tr>
    <tr>
      <td rowspan="5">4</td>
-     <td>Framework Project 2</td>
-     <td>5</td>
-     <td>Portfolio exam</td>
+     <td class="NBSA">Framework Project 2</td>
+     <td class="NBSA">5</td>
+     <td class="NBSA">Portfolio exam</td>
      <td></td>
    </tr>
    <tr>
@@ -166,7 +166,7 @@
     padding: 13px 16px;
     text-decoration: none;
   }
-  li {
+  li.nav {
     display: inline;
   }
   li a:hover {
@@ -189,9 +189,15 @@
     padding: 8px;
     text-align: left;
   }
+  th {
+    background-color: grey;
+  }
   h1 {
     color: white;
     font-size: 2em;
     text-align: center;
+  }
+  .NBSA {
+    background-color: red;
   }
   </style>
