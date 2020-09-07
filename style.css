@@ -9,3 +9,10 @@ header {
     top: 0px;
     text-decoration: none;
 }
+table {
+    width: 100%;
+}
+td, th {
+    border: 3px solid white;
+    
+}

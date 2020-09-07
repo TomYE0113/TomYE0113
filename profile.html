@@ -16,46 +16,85 @@
             
     </header>
     </div>
-<style>
-.header a{
-  text-decoration: none;
-  color: black;
-  font-size: 1em;
-}
-body {
-  background-image: url("achtergrond.jpg");
-}
-header {
-  background-color: white;
-}
-li a {
-  color: white;
-  text-align: left;
-  padding: 13px 16px;
-  text-decoration: none;
-}
-li {
-  display: inline;
-}
-li a:hover {
-  background-color: #cccccc;
-}
-.active {
-    background-color: #cccccc;
-  }
-ul {
-  padding: 0;
-  margin: 0;
-}
-</style>
     
 </head>
 <body>
 
-  
+  <div class="tom">
+    <img src="foto van mezelf.jpg" alt="ikzelf" style="width:250;height:442;">
+    <div class="foto-tekst">Dit ben ik</div>
+  </div>
 
+  <div class="wie-ben-ik">
+    <h1>Wie ben ik?</h1>
+    <p>Ik ben Tom, 17 jaar oud en ik kom uit Yerseke. In mijn vrije tijd spreek ik veel met vrienden af of ga ik gamen. 
+    Ik heb verder niet echt iets van hobbies of wat dan ook dus naast wat ik in mijn vrije tijd doe is mijn leven niet zo interessant.</p>
+  </div>
 
 
 
 </body>
 </html>
+
+<style>
+  .header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+  }
+  body {
+    background-image: url("achtergrond.jpg");
+  }
+  header {
+    background-color: white;
+  }
+  li a {
+    color: white;
+    text-align: left;
+    padding: 13px 16px;
+    text-decoration: none;
+  }
+  li {
+    display: inline;
+  }
+  li a:hover {
+    background-color: #cccccc;
+  }
+  .active {
+      background-color: #cccccc;
+    }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  div.tom {
+    border: 3px solid white;
+    width: 250px;
+    height: 442px;
+    float: left;
+    position: absolute;
+    left: 1.5em;
+    bottom: 14em;
+  }
+  div.foto-tekst {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+  }
+  div.tom:hover {
+    border: 3px solid grey;
+  }
+  .wie-ben-ik {
+    color: black;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    position: fixed;
+    right: 8em;
+    top: 5em;
+    border: 3px solid black;
+    width: 40%;
+    font-size: 1.2em;
+  }
+  </style>
