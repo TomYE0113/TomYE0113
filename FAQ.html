@@ -20,9 +20,11 @@
 </head>
 <body>
 
-  <div class="faq">
-    <h1>Frequently Asked Questions</h1> 
+
+  <div id="box-container">
+    <div id="box-1">
     <ol class="a">
+      <h1>Frequently Asked Questions</h1> 
       <b><li>1.Hoe kan je een document printen op de HZ?</li></b>
       <li>Door te verbinden met een printer op het wifi netwerk en op afrukken te klikken.</li>
       <b><li>2.Hoe scan je een document en deel je deze met je laptop op de HZ?</li></b>
@@ -33,7 +35,8 @@
       <li>Via het self-service portaal op de site van de HZ kan je een ruimte reserveren voor bepaalde tijd.</li>
       <b><li>5.Welke instructies moet je volgen om te kunnen parkeren bij de HZ?</li></b>
       <li>Als je aankomt bij de school moet je je studenten pas scannen en dan zou je door moeten kunnen rijden.</li>
-    </ol> 
+    </ol>
+    </div> 
   </div> 
 
 </body>
@@ -81,9 +84,28 @@
     border: 3px solid black;
     width: 40%;
     font-size: 1.2em;
+    align-items: center;
   }
   ol.a {
     list-style-type:none;
     text-align: left;
+  }
+  #box-container {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    font-size: 1.2em;
+    text-align: left;
+    width: 100%;
+  }
+  #box-1 {
+    background-color: white;
+    align-self: center;
+    height: 450px;
+    width: 600px;
+  }
+  h1 {
+    text-align: center;
+    color: black;
   }
   </style>

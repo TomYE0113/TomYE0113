@@ -147,9 +147,9 @@
 
  <h2>Study Guide</h2>
 
- <div class="link">
-   <h3>Studie relevante links</h3>
-   <ol>
+ <div id="box-container">
+   <ol id="box-1">
+     <h3>Studie relevante links</h3>
      <li><a class="links" href="https://portal.hz.nl/">HZ Portal</a></li>
      <li><a class="links" href="https://education.github.com/discount_requests/student_application">Github omgeving</a></li>
      <li><a class="links" href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">HZ Teams</a></li>
@@ -225,23 +225,26 @@
     text-align: center;
     font-size: 1.5em;
   }
-  div.link {
-    color: black;
-    text-align: left;
-    display: inline-block;
-    background-color: white;
-    position: absolute;
-    right: 28em;
-    bottom: -28em;
-    border: 3px solid black;
-    width: 30%;
-    font-size: 1.2em;
-  }
   .links {
-    color: black;
-  }
+  color: black;
+}
   .links:hover {
     background-color: white;
     padding: 0em;
+  }
+  #box-container {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    font-size: 1.2em;
+    text-align: left;
+    width: 100%;
+  }
+  #box-1 {
+    color: black;
+    background-color: white;
+    align-self: center;
+    height: 225px;
+    width: 500px;
   }
   </style>
